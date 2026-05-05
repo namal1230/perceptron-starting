@@ -1,6 +1,6 @@
-# 🧠 The Perceptron: The Atomic Unit of Modern AI
+# 🧠 From McCulloch–Pitts to Perceptron: The Foundation of Modern AI
 
-![AI](https://img.shields.io/badge/AI-Perceptron-blue)
+![AI](https://img.shields.io/badge/AI-Neural%20Networks-blue)
 ![ML](https://img.shields.io/badge/Machine%20Learning-Basics-green)
 ![Status](https://img.shields.io/badge/Project-Completed-brightgreen)
 
@@ -9,6 +9,7 @@
 ## 📌 Table of Contents
 
 * [Overview](#-overview)
+* [McCulloch–Pitts Neuron](#-mccullochpitts-neuron)
 * [What is a Perceptron?](#-what-is-a-perceptron)
 * [Limitations](#-limitations-of-the-perceptron)
 * [Advancements](#-advancements-in-learning-algorithms)
@@ -22,24 +23,44 @@
 
 ## 📌 Overview
 
-This project explores the history, working principles, and evolution of the **perceptron**, one of the earliest and most important building blocks in artificial intelligence.
+This project explores the evolution of artificial intelligence from the earliest neuron models to modern AI systems.
 
-It demonstrates how a simple computational model evolved into the foundation of modern AI systems.
+It begins with the **McCulloch–Pitts neuron**, moves to the **perceptron**, and shows how these foundational ideas led to today’s deep learning and transformer-based models.
+
+---
+
+## 🧠 McCulloch–Pitts Neuron
+
+The McCulloch–Pitts neuron (1943) was introduced by **Warren McCulloch** and **Walter Pitts**. It is the first mathematical model of an artificial neuron.
+
+### ⚙️ Key Characteristics:
+
+* Works with **binary inputs (0 or 1)**
+* Uses fixed weights
+* Applies a **threshold function**
+* Produces binary output (0 or 1)
+
+👉 Acts like logic gates (AND, OR, NOT)
+
+### ⚠️ Limitation:
+
+* No learning capability
+* Fully rule-based
 
 ---
 
 ## 🔍 What is a Perceptron?
 
-The perceptron was introduced in 1957 by Frank Rosenblatt. It is a basic artificial neuron used for pattern recognition.
+The perceptron was introduced in 1957 by **Frank Rosenblatt**. It improved on the McCulloch–Pitts model by adding **learning capability**.
 
 ### ⚙️ Key Characteristics:
 
 * Accepts multiple inputs
-* Assigns weights to inputs
-* Produces an output using a decision function
-* Learns by adjusting weights based on errors
+* Assigns adjustable weights
+* Produces output using a decision function
+* Learns by updating weights based on errors
 
-👉 It represents the first step toward machines that **learn from data** instead of following fixed rules.
+👉 First step toward machines that **learn from data**
 
 ---
 
@@ -47,15 +68,15 @@ The perceptron was introduced in 1957 by Frank Rosenblatt. It is a basic artific
 
 ### Linear Separability
 
-* Can only solve problems separable by a straight line
+* Can only solve linearly separable problems
 * Cannot solve XOR (exclusive OR)
 
-This limitation was highlighted by:
+Highlighted by:
 
-* Marvin Minsky
-* Seymour Papert
+* **Marvin Minsky**
+* **Seymour Papert**
 
-👉 Their work contributed to the early slowdown in neural network research.
+👉 Led to a temporary slowdown in neural network research.
 
 ---
 
@@ -63,47 +84,48 @@ This limitation was highlighted by:
 
 ### Gradient Descent
 
-Further developed by:
+Developed further by:
 
-* Bernard Widrow
-* Ted Hoff
+* **Bernard Widrow**
+* **Ted Hoff**
 
-This introduced:
+### Improvements:
 
 * Error minimization techniques
-* Efficient weight updates using **Gradient Descent**
+* Efficient weight updates
+* Foundation for modern optimization
 
 ---
 
 ## 🔄 Backpropagation Breakthrough
 
-A major milestone in AI development:
+A major milestone in AI:
 
 * **Backpropagation**
 
 Popularized by:
 
-* David Rumelhart
-* Geoffrey Hinton
-* Ronald Williams
+* **David Rumelhart**
+* **Geoffrey Hinton**
+* **Ronald Williams**
 
 ### 🚀 Improvements:
 
 * Use of sigmoid activation functions
-* Training of multi-layer networks
+* Training multi-layer neural networks
 * Enabled deep learning
 
 ---
 
 ## 🚀 Modern AI Connection
 
-Modern AI systems are built on these foundational ideas.
+Modern AI systems build on these foundational ideas:
 
-* Deep learning = stacked perceptron-like units
-* Transformers extend these concepts further
-* Applications include:
+* Deep learning = layers of perceptron-like units
+* Transformers extend these concepts
+* Applications:
 
-  * NLP (Natural Language Processing)
+  * Natural Language Processing (NLP)
   * Computer Vision
   * Speech Recognition
 
@@ -111,19 +133,19 @@ Modern AI systems are built on these foundational ideas.
 
 ## 🧩 Key Takeaways
 
-* Perceptron is the **foundation of neural networks**
-* Limitations led to major innovations
-* Gradient descent + backpropagation enabled deep learning
-* Modern AI is an evolution of these ideas
+* McCulloch–Pitts → **first artificial neuron (no learning)**
+* Perceptron → **learning neuron**
+* Backpropagation → **deep learning breakthrough**
+* Modern AI → **scaled-up neural networks**
 
 ---
 
 ## 📚 References / Inspiration
 
 * Foundational neural network research
-* Contributions from leading AI scientists
+* Contributions from early AI scientists
 * Article:
-  [McCulloch.and.Pitts.pdf](https://github.com/user-attachments/files/27383016/McCulloch.and.Pitts.pdf)
+  👉 [https://github.com/user-attachments/files/27383016/McCulloch.and.Pitts.pdf](https://github.com/user-attachments/files/27383016/McCulloch.and.Pitts.pdf)
 * Video explanation:
   👉 [https://youtu.be/cNxadbrN_aI?si=q3LuraMqkMJNFk9T](https://youtu.be/cNxadbrN_aI?si=q3LuraMqkMJNFk9T)
 
@@ -133,15 +155,15 @@ Modern AI systems are built on these foundational ideas.
 
 * Implement a perceptron in Python
 * Build a multi-layer neural network
-* Explore transformers and LLMs
+* Explore transformers and large language models
 
 ---
 
 ## 🤝 Contributing
 
-Contributions are welcome! Feel free to:
+Contributions are welcome!
 
-* Fork this repository
+* Fork the repository
 * Create a new branch
 * Submit a pull request
 
@@ -150,3 +172,5 @@ Contributions are welcome! Feel free to:
 ## 📄 License
 
 This project is open-source and available under the **MIT License**.
+* Create a **project folder structure**
+* Add **visual diagrams for GitHub** 🚀
