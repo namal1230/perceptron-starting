@@ -912,7 +912,7 @@ Rosenblatt briefly explored biological memory transfer experiments, but these we
 ---
 
 ---
-##🧠 Learning Internal Representations by Error Propagation (1986)
+## 🧠 Learning Internal Representations by Error Propagation (1986)
 
 ### 📄 Paper
 
@@ -1046,6 +1046,8 @@ Modern AI systems build on these foundational ideas:
  👉 [1962-rosenblatt-principlesofneurodynamics.pdf](https://github.com/user-attachments/files/27389181/1962-rosenblatt-principlesofneurodynamics.pdf)
 
  👉 [Newell_box00004_fld00283_doc0001222222.pdf](https://github.com/user-attachments/files/27390293/Newell_box00004_fld00283_doc0001222222.pdf)
+
+  👉 [Uploading Chap8_PDP86.pdf…]()
 
  
 * Video explanation:
