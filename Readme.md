@@ -39,6 +39,138 @@ Turing Test for intelligence evaluation
 
 👉 Foundation of modern AI thinking
 
+---
+
+## 🧠 The Imitation Game — by Alan Turing
+👤 Alan Turing
+
+    The Imitation Game is a famous idea introduced by Turing in 1950 in his paper:
+
+    “Computing Machinery and Intelligence”
+
+### 🎯 What is the Imitation Game?
+
+It’s a test to answer the question:
+
+    “Can machines think?”
+
+    Instead of defining “thinking,” Turing proposed a practical test.
+
+### ⚙️ How the test works
+
+There are 3 participants:
+
+    Human interrogator
+    Human
+    Machine
+
+### 🧪 Process:
+
+    The interrogator communicates via text only
+    Asks questions to both the human and the machine
+    Tries to identify which is the machine
+
+    👉 If the machine can fool the human, it passes the test
+
+### 🧠 Key idea
+
+    Intelligence can be judged by behavior, not internal structure
+
+### 💡 Why it is important
+
+This introduced:
+
+    The first practical definition of AI
+    The idea of human-like conversation as intelligence
+    Foundation for chatbots like:
+    ELIZA
+    Modern systems like ChatGPT
+    
+### 📉 Limitations
+
+    Measures imitation, not true understanding
+    Can be tricked by simple conversation tricks
+    Not a complete test of intelligence
+
+### 🎬 Fun fact
+
+    The movie The Imitation Game is based on Turing’s life (not exactly the test itself).
+
+### 🧩 Simple summary
+
+    The Imitation Game is a test proposed by Turing where a machine is considered intelligent if it can convince a human that it is also human.
+
+### 🧠 One-line takeaway
+
+    uring shifted AI from “What is thinking?” to “Can a machine behave like a human?”
+
+---
+---
+## 🧠 Joseph Weizenbaum & ELIZA
+👤 Joseph Weizenbaum
+
+### 💬 What is ELIZA?
+
+ELIZA (1966) is one of the first chatbots in AI history.
+
+### ⚙️ How ELIZA works
+
+ELIZA is a rule-based (symbolic AI) system, not machine learning.
+
+It works by:
+
+    Matching keywords in user input
+    Applying predefined rules
+    Transforming sentences into responses
+
+### 🧩 Example
+
+    User:
+    
+        I feel sad
+    
+    ELIZA:
+    
+        Why do you feel sad?
+
+    👉 It doesn’t understand meaning—it just rearranges input using patterns.
+
+### 🧠 Famous script: DOCTOR
+
+ELIZA often used a script called DOCTOR, which simulated a therapist.
+
+It used techniques like:
+
+    Reflecting statements
+    Asking open-ended questions
+    Encouraging users to keep talking
+
+### 💡 Why it was important
+
+ELIZA showed that:
+
+    Simple rules can create the illusion of understanding
+    Humans tend to attribute intelligence to machines
+    Conversation can be simulated without real intelligence
+    
+### ⚠️ Limitation
+
+    No real understanding
+    No memory or learning
+    Cannot handle complex conversation
+
+    👉 Pure symbolic algorithm, not AI learning
+
+### 🔗 Connection to AI history
+
+    Alan Turing → Imitation Game
+    Weizenbaum → ELIZA chatbot
+    Modern AI → LLMs (ChatGPT, etc.)
+
+### 🧩 One-line summary
+
+    ELIZA is an early chatbot that used rule-based pattern matching to simulate conversation, demonstrating both the potential and limits of early AI.
+---
 ## 🧠 McCulloch–Pitts Neuron
 
 The McCulloch–Pitts neuron (1943) was introduced by **Warren McCulloch** and **Walter Pitts**. It is the first mathematical model of an artificial neuron.
@@ -976,6 +1108,61 @@ This paper solved a major problem:
 
 ---
 
+## ♟️ What is Deep Blue?
+
+Deep Blue was a powerful chess-playing computer developed by IBM.
+
+### 🧠 What it did
+
+Deep Blue was designed to:
+
+    Play chess at a grandmaster level
+    Evaluate millions of possible moves per second
+    Choose the best move using advanced algorithms
+
+### 🏆 Historic moment
+
+    In 1997, Deep Blue made history by defeating:
+
+    👤 Garry Kasparov
+
+    👉 This was the first time a computer beat a reigning world chess champion in a match.
+
+### ⚙️ How it worked
+
+Deep Blue was not modern AI (like deep learning).
+
+It used:
+
+    Brute-force search (examining many possible moves)
+    Evaluation functions (scoring positions)
+    Hand-crafted rules from chess experts
+
+### 💡 Key idea
+
+    Intelligence here = searching and evaluating possibilities very fast
+
+### ⚠️ Limitations
+
+    No learning like modern AI
+    No understanding of chess concepts like humans
+    Could not generalize to other tasks
+
+    👉 It was a specialized system
+
+### 🚀 Why it matters
+
+Deep Blue showed that:
+
+    Machines can outperform humans in complex tasks
+    AI doesn’t always require learning—computation + strategy can be enough
+
+---
+
+
+
+---
+
 ## 🔄 Backpropagation Breakthrough
 
 A major milestone in AI:
@@ -996,6 +1183,233 @@ Popularized by:
 
 ---
 
+---
+## 🧠 Geoffrey Hinton & CNNs
+
+👤 Geoffrey Hinton
+
+### ❗ First—important clarification
+
+    Hinton did not originally invent CNNs.
+    
+    👉 The core idea of Convolutional Neural Networks (CNNs) was developed earlier by:
+
+        Yann LeCun
+
+### 🧠 So what did Hinton do?
+
+Hinton played a major role in making deep learning (including CNNs) successful and popular.
+
+### 🚀 Key contributions of Hinton
+
+    1. Revived neural networks (2000s)
+        At a time when neural networks were unpopular
+        He pushed forward deep learning research
+    2. Breakthrough in deep learning
+        Developed techniques for training deep networks
+        Helped overcome problems like:
+        Vanishing gradients
+        Poor initialization
+    3. ImageNet revolution (2012)
+
+    Hinton’s team (with his students):
+
+      Alex Krizhevsky
+      Ilya Sutskever
+
+    Created:
+    
+      AlexNet
+
+    👉 This was a CNN that crushed previous results in image recognition.
+
+📊 Why AlexNet was important
+
+    Used deep CNN architecture
+    Leveraged GPUs for training
+    Used ReLU activation (faster learning)
+    Applied dropout (regularization)
+
+    👉 This event started the deep learning boom
+
+---
+---
+## 🧠 Yann LeCun & CNNs
+👤 Yann LeCun
+
+### 🖼️ What did Yann LeCun do?
+
+    Yann LeCun is one of the key inventors of Convolutional Neural Networks (CNNs).
+    
+    👉 He developed the early practical CNN systems in the 1980s–1990s.
+
+### ⚙️ Core idea of CNN
+
+    A CNN (Convolutional Neural Network) is designed for image processing.
+    
+    It works by:
+    
+      Detecting local patterns (edges, textures)
+      Using filters (kernels)
+      Sharing weights across the image
+      Building hierarchical features
+
+### 🚀 LeNet — First Successful CNN
+
+    LeCun created:
+    
+      LeNet
+
+### 💡 What it did:
+
+    Recognized handwritten digits
+    Used in banking systems to read checks
+    One of the first real-world AI deployments
+
+### 🧠 Why it was important
+
+    LeNet showed that:
+    
+        Neural networks can process images effectively
+        Feature extraction can be learned automatically
+        Deep architectures can work in practice
+
+### ⚠️ Why CNNs didn’t explode earlier
+
+    Even though LeCun invented CNNs early:
+    
+        Limited computing power
+        Small datasets
+        Training was slow
+
+    👉 So adoption was limited until later
+
+### 🔥 Comeback (2012)
+
+    CNNs became famous again with:
+    
+    AlexNet
+    Built by Hinton’s team
+
+    👉 This used LeCun’s CNN idea at large scale
+    
+---
+
+---
+
+## 🧠 Fei-Fei Li & ImageNet
+👤 Fei-Fei Li
+
+### 🖼️ What is ImageNet?
+
+    ImageNet is a massive dataset of labeled images used to train AI systems for computer vision.
+
+### 💡 What Fei-Fei Li did
+
+    Fei-Fei Li led the creation of ImageNet with a simple but powerful idea:
+    
+    To build intelligent vision systems, we need huge amounts of labeled data
+
+### ⚙️ Key features of ImageNet
+
+    Millions of images
+    Thousands of object categories
+    Human-labeled (often using crowd workers)
+    Based on WordNet hierarchy
+    
+### 🏆 ImageNet Challenge
+
+    The dataset enabled a famous competition:
+    
+        ImageNet Large Scale Visual Recognition Challenge (ILSVRC)
+        
+        Researchers competed to:
+        
+        Classify images correctly
+        Improve accuracy year by year
+        
+### 🚀 Breakthrough moment (2012)
+    AlexNet (by Hinton’s team)
+    Won the competition with a huge margin
+    
+    👉 This event launched the deep learning revolution
+
+### 🧠 Why ImageNet is important
+
+    It changed AI by showing:
+    
+        Data scale is critical
+        Deep learning works best with big datasets
+        Benchmarking accelerates progress
+
+---
+
+---
+
+## 🧠 AlexNet — The Deep Learning Breakthrough
+
+    AlexNet is one of the most important neural networks in AI history. It marked the turning point where deep learning became dominant.
+    
+    👥 Who created it?
+      👤 Alex Krizhevsky
+      👤 Ilya Sutskever
+      👤 Geoffrey Hinton
+
+    👉 Developed at the University of Toronto
+
+### 🏆 What did it achieve?
+
+    Won the ImageNet competition (2012)
+    Reduced error by a huge margin compared to previous methods
+    Shocked the AI community
+
+    👉 This event started the deep learning revolution
+
+### ⚙️ Key innovations
+
+    1. Deep CNN architecture
+      Multiple convolutional layers
+      Learned hierarchical image features
+    2. ReLU activation
+      Faster training than sigmoid
+      Solved vanishing gradient issues
+    3. GPU training
+      Used GPUs for large-scale computation
+      Enabled training on huge datasets
+    4. Dropout
+      Reduced overfitting
+      Improved generalization
+      
+### 🖼️ What it does
+
+    AlexNet can:
+
+      Recognize objects in images
+      Classify images into categories
+      Learn features automatically (no manual rules)
+      
+### 🔗 Connection to AI evolution
+      
+      Yann LeCun → invented CNN concept
+      AlexNet → scaled CNNs successfully
+      Modern AI → builds on deep learning (CNNs + Transformers)
+
+### 📉 Why it matters
+
+    Before AlexNet:
+    
+        AI relied on handcrafted features
+    
+    After AlexNet:
+    
+        AI learns features automatically
+        Deep learning dominates vision tasks
+
+### 🧩 One-line summary
+
+    AlexNet is the CNN model that proved deep learning works at scale, launching the modern AI era.
+
+---
 ## 🚀 Modern AI Connection
 
 Modern AI systems build on these foundational ideas:
@@ -1048,16 +1462,38 @@ Modern AI systems build on these foundational ideas:
  👉 [Newell_box00004_fld00283_doc0001222222.pdf](https://github.com/user-attachments/files/27390293/Newell_box00004_fld00283_doc0001222222.pdf)
 
   👉 [Chap8_PDP86.pdf](https://github.com/user-attachments/files/27393610/Chap8_PDP86.pdf)
+
+  👉 [Computing Machinery and Intelligence by Alan Turing.pdf](https://github.com/user-attachments/files/27407059/Computing.Machinery.and.Intelligence.by.Alan.Turing.pdf)
+
+  👉 [Weizenabaum (1966) - ELIZA.pdf](https://github.com/user-attachments/files/27407664/Weizenabaum.1966.-.ELIZA.pdf)
+
+  👉 [deep-blue-system-overview.hsu-campbell-hoane.1995.acm.062303042.pdf](https://github.com/user-attachments/files/27408324/deep-blue-system-overview.hsu-campbell-hoane.1995.acm.062303042.pdf)
+
+  👉 [fastnc.pdf](https://github.com/user-attachments/files/27409409/fastnc.pdf)
+
+  👉 [Lecun98.pdf](https://github.com/user-attachments/files/27410133/Lecun98.pdf)
   
+  👉 [ImageNet_a_Large-Scale_Hierarchical_Image_Database.pdf](https://github.com/user-attachments/files/27410652/ImageNet_a_Large-Scale_Hierarchical_Image_Database.pdf)
+
+  👉 [NIPS-2012-imagenet-classification-with-deep-convolutional-neural-networks-Paper.pdf](https://github.com/user-attachments/files/27410989/NIPS-2012-imagenet-classification-with-deep-convolutional-neural-networks-Paper.pdf)
+
+  
+
+
+
 * Video explanation:
   👉 [https://youtu.be/cNxadbrN_aI?si=q3LuraMqkMJNFk9T](https://youtu.be/cNxadbrN_aI?si=q3LuraMqkMJNFk9T)
+  👉 https://youtu.be/oLNUSrkW9-8?si=IMBSrsu4ambwgTX0
   
   👉 https://youtu.be/HfPXr90HXSY?si=0bWnP8s0Utdj9XNs
 
 https://www.nytimes.com/1958/07/13/archives/electronic-brain-teaches-itself.html
 
-  
+[https://drpepermd.com/episode/imagenet/](https://youtu.be/40riCqvRoMs?si=5FBG6tZC5Pr8mdHb)
+
 ---
+---
+
 
 ## 💡 Next Steps
 
