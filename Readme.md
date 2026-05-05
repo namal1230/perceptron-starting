@@ -122,6 +122,8 @@ Modern AI systems are built on these foundational ideas.
 
 * Foundational neural network research
 * Contributions from leading AI scientists
+* Article:
+  [McCulloch.and.Pitts.pdf](https://github.com/user-attachments/files/27383016/McCulloch.and.Pitts.pdf)
 * Video explanation:
   👉 [https://youtu.be/cNxadbrN_aI?si=q3LuraMqkMJNFk9T](https://youtu.be/cNxadbrN_aI?si=q3LuraMqkMJNFk9T)
 
