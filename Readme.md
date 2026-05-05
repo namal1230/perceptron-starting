@@ -1408,6 +1408,298 @@ Hinton played a major role in making deep learning (including CNNs) successful a
 ### 🧩 One-line summary
 
     AlexNet is the CNN model that proved deep learning works at scale, launching the modern AI era.
+---
+## 🧠 Deep Neural Network (DNN) Research — What it is and why it matters
+
+**Deep Neural Networks (DNNs)** are neural networks with **multiple layers** that learn complex patterns from data. DNN research is the backbone of modern AI.
+
+---
+
+## 👤 Key pioneers in DNN research
+
+* Geoffrey Hinton
+* Yann LeCun
+* Yoshua Bengio
+
+👉 These three are often called the **“Godfathers of Deep Learning.”**
+
+---
+
+## 🔬 What DNN research focuses on
+
+### 1. 🧩 Learning complex patterns
+
+* Multiple layers learn **hierarchical features**
+* Example:
+
+  * Layer 1 → edges
+  * Layer 2 → shapes
+  * Layer 3 → objects
+
+---
+
+### 2. ⚙️ Training algorithms
+
+* Backpropagation (core method)
+* Optimization techniques:
+
+  * Adam
+  * RMSProp
+  * SGD
+
+---
+
+### 3. 🧠 Architectures
+
+Different types of DNNs:
+
+* CNNs → images
+* RNNs / LSTMs → sequences
+* Transformers → language & general AI
+
+---
+
+### 4. 📊 Data + scale
+
+Modern DNN research shows:
+
+* More data → better performance
+* Bigger models → better generalization
+
+---
+
+## 🚀 Major milestones
+
+### 🔹 1986 — Backpropagation
+
+* Enabled training of deep networks
+
+---
+
+### 🔹 1990s — CNNs
+
+* Yann LeCun
+* Early vision systems (LeNet)
+
+---
+
+### 🔹 2012 — AlexNet
+
+* AlexNet
+* Deep learning breakthrough
+
+---
+
+### 🔹 2017 — Transformers
+
+* Revolutionized NLP
+
+---
+
+### 🔹 2020s — Large Language Models
+
+* GPT-4
+* General-purpose AI systems
+
+---
+
+## ⚠️ Challenges in DNN research
+
+* Requires huge data
+* High computational cost
+* Hard to interpret (“black box”)
+* Risk of bias
+
+---
+
+## 🔗 Real-world applications
+
+DNNs are used in:
+
+* Computer Vision
+* Natural Language Processing
+* Speech Recognition
+* Autonomous vehicles
+* Healthcare AI
+
+---
+
+## 🧩 Simple understanding
+
+DNN = **many layers of neurons learning step-by-step representations**
+
+---
+
+## 🧠 One-line summary
+
+Deep neural network research focuses on building and training multi-layer models that can learn complex patterns, forming the foundation of modern AI systems.
+
+---
+
+## 🧠 AlphaGo — The AI that beat a Go world champion
+
+**AlphaGo** is a landmark AI system developed to play the board game **Go**, one of the most complex strategy games ever created.
+
+It was built by:
+
+* DeepMind (later part of Google/Alphabet)
+
+---
+
+## 🏆 Historic achievement
+
+In 2016, AlphaGo defeated:
+
+* Lee Sedol
+
+👉 This was a major breakthrough because Go was considered far harder than chess for AI.
+
+---
+
+## ⚙️ How AlphaGo works
+
+AlphaGo combines multiple deep learning and search techniques:
+
+### 1. Neural Networks (DNNs)
+
+* Evaluates board positions
+* Predicts strong moves
+
+### 2. Reinforcement Learning
+
+* Learns by playing millions of games against itself
+
+### 3. Monte Carlo Tree Search (MCTS)
+
+* Simulates future moves
+* Chooses best long-term strategy
+
+---
+
+## 🧠 Why Go was so difficult
+
+* Extremely large number of possible moves
+* Requires intuition, not just brute force
+* Hard for rule-based systems
+
+---
+
+## 🚀 Key innovations
+
+* Deep neural networks guide decision-making
+* Self-play learning improves performance
+* Combines **learning + planning**
+
+---
+
+## 🔥 Famous moment
+
+During the match against Lee Sedol:
+
+* Move 37 (Game 2) was considered **“creative and unexpected”**
+* Even experts called it “non-human-like intuition”
+
+---
+
+## 🧩 One-line summary
+
+AlphaGo is a DeepMind AI system that combined deep neural networks and reinforcement learning to defeat a world champion in the game of Go, marking a major milestone in AI history.
+
+---
+
+## 🧠 Transformers — The Architecture Behind Modern AI
+
+**Transformer** is a neural network architecture that revolutionized **natural language processing (NLP)** and became the foundation of modern AI systems like GPT.
+
+---
+
+## 👤 Who introduced it?
+
+The Transformer was introduced in 2017 by researchers at:
+
+* Google (Google Brain / Google Research)
+
+In the paper:
+
+> *“Attention Is All You Need”*
+
+Key ideas came from:
+
+* Self-attention mechanism
+* Removing recurrent networks (RNNs)
+
+---
+
+## ⚙️ Core idea: Self-Attention
+
+Transformers do not process words one-by-one.
+
+Instead, they:
+
+> Look at all words in a sentence at once and decide which ones are important.
+
+---
+
+## 🧠 How it works (simple view)
+
+1. Input sentence → converted into vectors
+2. Self-attention → finds relationships between words
+3. Multiple layers → build deep understanding
+4. Output → prediction or generated text
+
+---
+
+## 🔑 Key innovation
+
+### 🧩 Self-Attention mechanism
+
+\text{Attention}(Q,K,V) = \text{softmax}\left(\frac{QK^T}{\sqrt{d_k}}\right)V
+
+👉 This allows the model to decide:
+
+* Which words matter most
+* How words relate to each other
+
+---
+
+## 🚀 Why Transformers are powerful
+
+* Process entire sequences in parallel
+* Capture long-range relationships in text
+* Scale efficiently with large datasets
+
+---
+
+## 📈 What Transformers replaced
+
+Before Transformers:
+
+* RNNs (Recurrent Neural Networks)
+* LSTMs
+
+Problems with old models:
+
+* Slow training
+* Forget long-term context
+
+👉 Transformers solved these issues
+
+---
+
+## 🤖 Real-world applications
+
+Transformers power modern AI systems:
+
+* GPT-4
+* Translation systems (Google Translate)
+* Chatbots
+* Image and multimodal models
+
+---
+
+## 🧩 One-line summary
+
+Transformers are a deep learning architecture based on self-attention that allows AI models to understand relationships in data efficiently, forming the backbone of modern large language models.
 
 ---
 ## 🚀 Modern AI Connection
@@ -1421,15 +1713,8 @@ Modern AI systems build on these foundational ideas:
   * Natural Language Processing (NLP)
   * Computer Vision
   * Speech Recognition
-
 ---
 
-## 🧩 Key Takeaways
-
-* McCulloch–Pitts → **first artificial neuron (no learning)**
-* Perceptron → **learning neuron**
-* Backpropagation → **deep learning breakthrough**
-* Modern AI → **scaled-up neural networks**
 
 ---
 
@@ -1476,6 +1761,10 @@ Modern AI systems build on these foundational ideas:
   👉 [ImageNet_a_Large-Scale_Hierarchical_Image_Database.pdf](https://github.com/user-attachments/files/27410652/ImageNet_a_Large-Scale_Hierarchical_Image_Database.pdf)
 
   👉 [NIPS-2012-imagenet-classification-with-deep-convolutional-neural-networks-Paper.pdf](https://github.com/user-attachments/files/27410989/NIPS-2012-imagenet-classification-with-deep-convolutional-neural-networks-Paper.pdf)
+
+👉 [AG vs AG - G1 - English.pdf](https://github.com/user-attachments/files/27412972/AG.vs.AG.-.G1.-.English.pdf)
+
+👉 [NIPS-2017-attention-is-all-you-need-Paper.pdf](https://github.com/user-attachments/files/27412994/NIPS-2017-attention-is-all-you-need-Paper.pdf)
 
   
 
