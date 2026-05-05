@@ -1047,9 +1047,8 @@ Modern AI systems build on these foundational ideas:
 
  👉 [Newell_box00004_fld00283_doc0001222222.pdf](https://github.com/user-attachments/files/27390293/Newell_box00004_fld00283_doc0001222222.pdf)
 
-  👉 [Uploading Chap8_PDP86.pdf…]()
-
- 
+  👉 [Chap8_PDP86.pdf](https://github.com/user-attachments/files/27393610/Chap8_PDP86.pdf)
+  
 * Video explanation:
   👉 [https://youtu.be/cNxadbrN_aI?si=q3LuraMqkMJNFk9T](https://youtu.be/cNxadbrN_aI?si=q3LuraMqkMJNFk9T)
   
